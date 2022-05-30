@@ -11,7 +11,7 @@ else if
   (
 	  shExpMatch(host, "*.baidu.com")
 	)
-	  return "HTTPS localhost:8080";
+	  return "HTTPS github.com:443";
 
 else if
   (
