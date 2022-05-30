@@ -5,13 +5,13 @@ if (
 	  shExpMatch(host, "*.yahoo.com") ||
 	  shExpMatch(host, "*.google.com*")
    )
-   return "PROXY pac-proxy:8080; SOCKS pac-socks:8080; HTTPS pac-https:8080";
+   return "PROXY pac-proxy:8080; SOCKS pac-socks:8080; HTTPS 127.0.0.1:8080";
 	  
 else if
   (
 	  shExpMatch(host, "*.baidu.com")
 	)
-	  return "HTTPS pac-https:8080";
+	  return "HTTPS localhost:8080";
 
 else if
   (
