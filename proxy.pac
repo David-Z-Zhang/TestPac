@@ -3,7 +3,8 @@ function FindProxyForURL(url, host)
 var my_computer_ip = myIpAddress();
 if (
 	  shExpMatch(host, "*.yahoo.com") ||
-	  shExpMatch(host, "*.google.com*")
+	  shExpMatch(host, "*.google.com*") ||
+	  shExpMatch(host, "10.204.204.17")
    )
    return "PROXY pac-proxy:8080; SOCKS pac-socks:8080; HTTPS 127.0.0.1:8080";
 	  
