@@ -15,7 +15,7 @@ else if
 
 else if
   (
-    isInNet(my_computer_ip, "10.64.25.36", "255.255.254.0") ||
+    isInNet(my_computer_ip, "10.204.204.17", "255.255.254.0") ||
     isInNet(my_computer_ip, "10.28.130.0", "255.255.255.0")
   )
 	return "PROXY 10.28.131.214:8080";	
