@@ -12,7 +12,7 @@ else if
   (
 	  shExpMatch(host, "*.baidu.com")
 	)
-	  return "PROXY github.com:443";
+	  return "PROXY 10.28.6.43.:8080";
 
 else if
   (
