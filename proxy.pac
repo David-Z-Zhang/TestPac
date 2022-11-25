@@ -10,7 +10,7 @@ if (
 	  
 else if
   (
-	  shExpMatch(host, "*.trendmicro.com")
+	  shExpMatch(host, "*.baidu.*") || shExpMatch(host, "*.trendmicro.com")
 	)
 	  return "PROXY 10.28.6.43:8080";
 
